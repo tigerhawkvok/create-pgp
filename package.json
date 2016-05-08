@@ -1,0 +1,19 @@
+{
+  "name": "create-pgp",
+  "version": "1.0.0",
+  "description": "An open-source tool to encrypt PGP messages",
+  "main": "index.html",
+  "dependencies": {
+    "coffee-script": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "create-pgp"
+  },
+  "author": "tigerhawkvok@gmail.com",
+  "license": "GPL-3.0"
+}

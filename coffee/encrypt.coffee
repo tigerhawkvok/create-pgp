@@ -23,7 +23,7 @@ doEncrypt = (messageSelector = defaultMessageSelector, keySelector = defaultKeyS
     failCleanup "Please input a public key"
   options =
     data: $(messageSelector).val()
-    publicKeys = openpgp.key.readArmored(publicKey).keys
+    publicKeys: openpgp.key.readArmored(publicKey).keys
   openpgp.encrypt(options).then (ciphertext) ->
     message = ciphertext.data
     if message?
